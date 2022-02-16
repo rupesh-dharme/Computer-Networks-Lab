@@ -1,0 +1,31 @@
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 03> python assignment_03.py
+Enter data for humming method: abc
+Binary data: 011000010110001001100011
+Data sent is 01100001011001010011010011111
+Enter the data recieved: 01100001011001010011010010111
+000100
+Error at position 4
+
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 03> python assignment_03.py
+Enter data for humming method: abcd
+Binary data: 01100001011000100110001101100100
+Data sent is 01100000101100010011000011011010101000
+Enter the data recieved: 01100000101101010011000011011010101000
+011001
+Error at position 25
+
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 03> python assignment_03.py
+Enter data for humming method: rupesh
+Binary data: 011100100111010101110000011001010111001101101000
+Data sent is 011100100111010101110000001100101011101011011011001001
+Enter the data recieved: 011100100111010101110010001100101011101011011011001001
+100000
+Error at position 32
+
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 03> python assignment_03.py
+Enter data for humming method: acd
+Binary data: 011000010110001101100100     
+Data sent is 01100001011001011011000100010
+Enter the data recieved: 01100001011001011011000100010
+000000
+No error in the recieved input.

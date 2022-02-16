@@ -1,0 +1,4 @@
+Which lookup do you want to perform?
+    1. Domain to IP Address
+    2. IP Address to Domain
+    3. Exit

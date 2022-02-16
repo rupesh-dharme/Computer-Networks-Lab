@@ -1,0 +1,108 @@
+OUTPUT 01
+
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 04> 
+python server.py
+Listning...
+connected to address ('192.168.43.233', 50066)
+Case chosen is 0
+Frame sent.
+Acknowledgment recieved
+Frame sent.
+Acknowledgment recieved
+Frame sent.
+Acknowledgment recieved
+Frame sent.
+Acknowledgment recieved
+Frame sent.
+Acknowledgment recieved
+Frame sent.
+Acknowledgment recieved
+Frame sent.
+Acknowledgment recieved
+Frame sent.
+Acknowledgment recieved
+Frame sent.
+Acknowledgment recieved
+Frame sent.
+Acknowledgment recieved
+
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Asspython client.py
+Connected...
+Enter number of frames to recieve from server: 10
+Enter the case(Error:1 Normal:0): 0
+Frame recieved.
+Acknowledgment sent.
+Frame recieved.
+Acknowledgment sent.
+Frame recieved.
+Acknowledgment sent.
+Frame recieved.
+Acknowledgment sent.
+Frame recieved.
+Acknowledgment sent.
+Frame recieved.
+Acknowledgment sent.
+Frame recieved.
+Acknowledgment sent.
+Frame recieved.
+Acknowledgment sent.
+Frame recieved.
+Acknowledgment sent.
+Frame recieved.
+Acknowledgment sent.
+
+
+OUTPUT 02
+
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 04>python server.py
+Listning...
+connected to address ('192.168.43.233', 62541)
+Case chosen is 1
+Frame sent.
+Acknowledgment recieved 1
+Frame sent.
+Acknowledgment recieved 2
+Frame sent.
+Frame sent.
+Frame sent.
+Acknowledgment recieved 3
+Frame sent.
+Acknowledgment recieved 4
+Frame sent.
+Acknowledgment recieved 5
+Frame sent.
+Acknowledgment recieved 6
+Frame sent.
+Acknowledgment recieved 7
+Frame sent.
+Acknowledgment recieved 8
+Frame sent.
+Acknowledgment recieved 9
+Frame sent.
+Acknowledgment recieved 10
+
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 04>python client.py
+Connected...
+Enter number of frames to recieve from server: 10
+Enter the case(Error:1 Normal:0): 1
+Frame recieved.      
+Acknowledgment sent. 
+Frame recieved.      
+Acknowledgment sent. 
+Frame recieved.      
+Frame recieved.      
+Acknowledgement sent.
+Frame recieved.      
+Acknowledgement sent.
+Frame recieved.      
+Acknowledgement sent.
+Frame recieved.      
+Acknowledgement sent.
+Frame recieved.      
+Acknowledgement sent.
+Frame recieved.
+Acknowledgement sent.
+Frame recieved.
+Acknowledgement sent.
+Frame recieved.
+Acknowledgement sent.

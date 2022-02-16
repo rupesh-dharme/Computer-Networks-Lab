@@ -1,0 +1,40 @@
+Server:
+
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 04\Selective Repeat> python server.py
+Listening...
+Connection established ('192.168.43.233', 50401)
+Sending packet 0
+Sending packet 1
+Sending packet 2
+Sending packet 3
+Sending packet 4
+Sending packet 5
+Sending packet 6
+Sending packet 7
+Sending packet 8
+Sending packet 9
+Resending lost frame...
+Lost frame sent
+Frames sent: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+Client:
+
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 04\Selective Repeat> python client.py
+Connecting...
+Connected to server.
+Server sending 10 frames
+Frame recieved 0
+Frame recieved 1
+Frame recieved 2
+Frame recieved 3
+Frame recieved 4
+Frame recieved 5
+Frame recieved 6
+Frame recieved 7
+Frame recieved 8
+Frame recieved 9
+Frames recieved: [0, 1, 2, 3, -1, 5, 6, 7, 8, 9]
+Requesting server to resend frame...
+Recieved lost frame
+Frames recieved: [0, 1, 2, 3, 9, 5, 6, 7, 8, 9]

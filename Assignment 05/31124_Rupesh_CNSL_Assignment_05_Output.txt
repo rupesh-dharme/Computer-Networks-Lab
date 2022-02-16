@@ -1,0 +1,62 @@
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 05> python assignment05.py
+
+Enter an IP address:   192.168.1.68/26
+
+IP address:            192.168.1.68 (11000000.10101000.00000001.01000100)
+
+Mask is:               26
+Subnet decimal is:     255.255.255.192 (11111111.11111111.11111111.11000000)
+
+Pingable IPs:          192.168.1.64 to 192.168.1.127
+
+Random Pingable IPs:   192.168.1.95
+
+
+
+
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 05> python assignment05.py
+
+Enter an IP address:   192.168.1.68/22
+
+IP address:            192.168.1.68 (11000000.10101000.00000001.01000100)
+
+Mask is:               22
+Subnet decimal is:     255.255.252.0 (11111111.11111111.11111100.00000000)
+
+Pingable IPs:          192.168.0.0 to 192.168.3.255
+
+Random Pingable IPs:   192.168.0.127
+
+
+
+
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 05> python assignment05.py
+
+Enter an IP address:   192.168.155.68/22
+
+IP address:            192.168.155.68 (11000000.10101000.10011011.01000100)
+
+Mask is:               22
+
+Subnet decimal is:     255.255.252.0 (11111111.11111111.11111100.00000000)
+
+Pingable IPs:          192.168.152.0 to 192.168.155.255
+
+Random Pingable IPs:   192.168.152.127
+
+
+
+
+PS C:\Users\HP\Rupesh\PICT\TE SEM 1\CNS Lab\Assignment 05> python assignment05.py
+
+Enter an IP address:   192.168.155.68/28
+
+IP address:            192.168.155.68 (11000000.10101000.10011011.01000100)
+
+Mask is:               28
+
+Subnet decimal is:     255.255.255.240 (11111111.11111111.11111111.11110000)
+
+Pingable IPs:          192.168.155.64 to 192.168.155.79
+
+Random Pingable IPs:   192.168.155.71
